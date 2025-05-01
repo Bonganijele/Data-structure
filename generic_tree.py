@@ -14,7 +14,7 @@ class Node:
         
 def create_dir_tree(root_p=None):
     if root_p is None:
-        root_p = os.getenv('Location', os.path.expanduser('~/home/bongani'))
+        root_p = os.getenv('Location', os.path.expanduser('~/home/pcpath/music'))
         
     if not os.path.exists(root_p):
         print(f'Error: the path {root_p}')
